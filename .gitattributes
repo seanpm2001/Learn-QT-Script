@@ -41,7 +41,7 @@
 *.json linguist-documentation=false
 *.json linguist-language=JSON
 # QT Script source file
-*.qs linguist-detectable=false
+*.qs linguist-detectable=true
 *.qs linguist-documentation=false
 # I am completely stumped on trying to get GitHub to recognize .qs files as Qt Script rather than Q# the following attempts were made, but only resulted in it detecting nothing.
 # Linguist attempts:
@@ -54,8 +54,8 @@
 # *.qs linguist-language=qtscript
 # *.qs linguist-language=558193693 # (the Linguist ID)
 # *.qs linguist-language=Qt Script
-# If anyone knows how to make this work, please contact me.
-*.qs linguist-language=Qt Script
+# If anyone knows how to make this work, please contact me. Nevermind, I had it set to false. Let me try again...
+*.qs linguist-language=Qt-Script
 # YAML (YAML Ain't Markup Language) document
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
@@ -173,6 +173,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 14 (2022, Thursday, August 25th at 1:22 pm PST)
+# File version: 15 (2022, Thursday, August 25th at 1:26 pm PST)
 # Line count (including blank lines and compiler line): 179
 # End of script
