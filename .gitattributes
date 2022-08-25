@@ -48,7 +48,8 @@
 # QT-Script
 # QT_Script
 # QTScript
-*.qs linguist-language=QTScript
+# QT Script
+*.qs linguist-language=QT Script
 # YAML (YAML Ain't Markup Language) document
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
@@ -166,6 +167,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 8 (2022, Thursday, August 25th at 12:54 pm PST)
-# Line count (including blank lines and compiler line): 172
+# File version: 9 (2022, Thursday, August 25th at 12:56 pm PST)
+# Line count (including blank lines and compiler line): 173
 # End of script
